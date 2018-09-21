@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/deepSkyBlue</item>
+        <item name="colorPrimaryDark">@color/deepSkyBlue</item>
+        <item name="colorAccent">@color/darkGray</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 隐藏标题栏 -->
+        <item name="windowNoTitle">true</item>
+        <!-- 隐藏状态栏 -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/deepSkyBlue</item>
+        <item name="colorPrimaryDark">@color/dodgerBlue</item>
+        <item name="colorAccent">@color/darkGray</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+
+    </style>
+
+    <style name="splash_style" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="FloatingActionButton" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/dodgerBlue</item>
+    </style>
+
+    <style name="AnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_back_exit</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weather_array">
+        <item>晴</item>
+        <item>雨 </item>
+        <item>雪</item>
+        <item>阴</item>
+        <item>多云</item>
+
+    </string-array>
+
+
+</resources>

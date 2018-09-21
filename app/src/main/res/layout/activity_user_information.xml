@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserInformationActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/wan_heads"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/cb_password_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启用密码"/>
+
+    <com.xwray.passwordview.PasswordView
+        android:id="@+id/set_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="设置你的密码" />
+
+    <com.xwray.passwordview.PasswordView
+        android:id="@+id/set_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设置你的问题"/>
+
+    <com.xwray.passwordview.PasswordView
+        android:id="@+id/set_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设置你的答案"/>
+
+
+</LinearLayout>
