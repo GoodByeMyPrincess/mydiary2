@@ -11,7 +11,7 @@ public class Diary {
     private String mDiaryText;
     private int mDiarySortId;
 
-
+//1234
     public Diary() {
         this(UUID.randomUUID());
     }
